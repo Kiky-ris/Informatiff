@@ -9,7 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 
 const appRoutes: Routes = [
-	{ path: 'home', component: HomeComponent },
+	{ path: '', component: HomeComponent },
 ];
 
 @NgModule({
@@ -17,7 +17,7 @@ const appRoutes: Routes = [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
